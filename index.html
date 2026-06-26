@@ -1,112 +1,232 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>AVANTIKKA A | Portfolio</title>
-<link rel="stylesheet" href="style.css">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Avantikka A | Portfolio</title>
+
+    <link rel="stylesheet" href="style.css">
+
 </head>
+
 <body>
+
+<!-- ================= NAVBAR ================= -->
+
+<header class="navbar">
+
+    <nav>
+
+        <a href="#projects">Projects</a>
+        <a href="#skills">Tech Stack</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+
+    </nav>
+
+</header>
+
+<!-- ================= HERO ================= -->
 
 <section class="hero">
 
-    <h1>AVANTIKKA A</h1>
+    <span class="tag">
+        FULL STACK DEVELOPER
+    </span>
 
-    <h2>CSE Student & Full Stack Developer</h2>
+    <h1>
+        Building Secure <br>
+        Full Stack Applications
+    </h1>
 
-    <p>
-        Building modern full stack applications with beautiful interfaces,
-        secure authentication and powerful backend systems.
+    <p class="hero-text">
+
+        Computer Science Engineering student passionate about
+        developing secure, scalable and modern web applications
+        using Node.js, Express.js and MySQL.
+
     </p>
 
-</section>
+    <div class="hero-buttons">
 
-<section class="about">
+        <a href="#projects" class="primary-btn">
 
-    <h2>About Me</h2>
+            View Projects
 
-    <p>
-        I am a Computer Science Engineering student passionate about
-        Full Stack Development and Software Engineering.
-        I enjoy creating modern web applications and solving
-        real-world problems through technology.
-    </p>
+        </a>
 
-</section>
+        <a href="https://github.com/a-avantikka-2007"
+           target="_blank"
+           class="secondary-btn">
 
-<section class="projects">
+            GitHub
 
-    <div class="project-card">
-
-        <img src="images/dqs.png" alt="Digital Queue System">
-
-        <h2>Digital Queue System</h2>
-
-        <p>
-            Appointment and queue management platform with admin dashboard,
-            notifications, departments and token management.
-        </p>
-
-        <div class="buttons">
-
-            <a href="https://github.com/a-avantikka-2007/dqs-frontend"
-               target="_blank"
-               class="repo-btn">
-
-                GitHub Repository
-
-            </a>
-
-            <a href="http://76.13.243.90:3055"
-               target="_blank"
-               class="site-btn">
-
-                View Project
-
-            </a>
-
-        </div>
-
-    </div>
-
-    <div class="project-card">
-
-        <img src="images/prs.png" alt="Privacy Risk Scanner">
-
-        <h2>Privacy Risk Scanner</h2>
-
-        <p>
-            Privacy analysis application that scans and evaluates
-            digital privacy risks and generates reports.
-        </p>
-
-        <div class="buttons">
-
-            <a href="https://github.com/a-avantikka-2007/prs-frontend"
-               target="_blank"
-               class="repo-btn">
-
-                GitHub Repository
-
-            </a>
-
-            <a href="http://76.13.243.90:3015"
-               target="_blank"
-               class="site-btn">
-
-                View Project
-
-            </a>
-
-        </div>
+        </a>
 
     </div>
 
 </section>
 
-<section class="skills">
+<!-- ================= STATS ================= -->
 
-    <h2>Technology Stack</h2>
+<section class="stats">
+
+    <div class="stat-card">
+
+        <h2>2+</h2>
+
+        <p>Projects</p>
+
+    </div>
+
+    <div class="stat-card">
+
+        <h2>10+</h2>
+
+        <p>Technologies</p>
+
+    </div>
+
+    <div class="stat-card">
+
+        <h2>20+</h2>
+
+        <p>Database Tables</p>
+
+    </div>
+
+    <div class="stat-card">
+
+        <h2>100%</h2>
+
+        <p>Responsive</p>
+
+    </div>
+
+</section>
+
+<!-- ================= PROJECTS ================= -->
+
+<section id="projects" class="projects-section">
+
+    <h2 class="section-title">
+
+        Featured Projects
+
+    </h2>
+
+    <div class="projects">
+
+        <!-- Project 1 -->
+
+        <div class="project-card">
+
+            <img src="images/dqs.png" alt="Digital Queue System">
+
+            <div class="project-content">
+
+                <h3>
+
+                    Digital Queue System
+
+                </h3>
+
+                <p>
+
+                    Appointment scheduling and queue management
+                    platform with secure authentication,
+                    admin dashboard, departments,
+                    notifications and token management.
+
+                </p>
+
+                <div class="buttons">
+
+                    <a href="https://github.com/a-avantikka-2007/dqs-frontend"
+                       target="_blank"
+                       class="repo-btn">
+
+                        GitHub
+
+                    </a>
+
+                    <a href="http://76.13.243.90:3055"
+                       target="_blank"
+                       class="site-btn">
+
+                        Live Demo
+
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- Project 2 -->
+
+        <div class="project-card">
+
+            <img src="images/prs.png" alt="Privacy Risk Scanner">
+
+            <div class="project-content">
+
+                <h3>
+
+                    Privacy Risk Scanner
+
+                </h3>
+
+                <p>
+
+                    Privacy analysis platform that scans,
+                    evaluates digital privacy risks and
+                    generates comprehensive reports
+                    with a clean modern interface.
+
+                </p>
+
+                <div class="buttons">
+
+                    <a href="https://github.com/a-avantikka-2007/prs-frontend"
+                       target="_blank"
+                       class="repo-btn">
+
+                        GitHub
+
+                    </a>
+
+                    <a href="http://76.13.243.90:3015"
+                       target="_blank"
+                       class="site-btn">
+
+                        Live Demo
+
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- ================= SKILLS ================= -->
+
+<section id="skills" class="skills">
+
+    <h2 class="section-title">
+
+        Technology Stack
+
+    </h2>
 
     <div class="skill-list">
 
@@ -119,18 +239,105 @@
         <span>JWT</span>
         <span>PM2</span>
         <span>Nginx</span>
+        <span>Git</span>
 
     </div>
 
 </section>
 
+<!-- ================= ABOUT ================= -->
+
+<section id="about" class="about">
+
+    <div class="about-left">
+
+        <span class="tag">
+
+            ABOUT
+
+        </span>
+
+        <h2>
+
+            Who I Am
+
+        </h2>
+
+    </div>
+
+    <div class="about-right">
+
+        <p>
+
+            I am Avantikka A, a Computer Science Engineering student
+            passionate about Full Stack Development and Software Engineering.
+
+            I enjoy building secure, scalable and responsive web applications
+            using Node.js, Express.js and MySQL while continuously learning
+            modern technologies and solving real-world problems through software.
+
+        </p>
+
+    </div>
+
+</section>
+
+<!-- ================= CONTACT ================= -->
+
+<section id="contact" class="contact">
+
+    <h2>
+
+        Let's Build Something Great Together
+
+    </h2>
+
+    <p>
+
+        I'm always open to internships, collaborations
+        and software development opportunities.
+
+    </p>
+
+    <div class="contact-buttons">
+
+        <a href="mailto:avantikka.a.2024.cse@rajalakshmi.edu.in"
+           class="primary-btn">
+
+            Email Me
+
+        </a>
+
+        <a href="https://github.com/a-avantikka-2007"
+           target="_blank"
+           class="secondary-btn">
+
+            GitHub
+
+        </a>
+
+    </div>
+
+</section>
+
+<!-- ================= FOOTER ================= -->
+
 <footer>
 
-    <h3>Developed by Avantikka A</h3>
+    <h3>
 
-    <p>Computer Science Engineering Student</p>
+        Avantikka A
+
+    </h3>
+
+    <p>
+
+        Computer Science Engineering Student • Full Stack Developer
+
+    </p>
 
 </footer>
 
 </body>
+
 </html>
